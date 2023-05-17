@@ -1,4 +1,5 @@
-$("button").on("click",()=>{
-    // alert("click en el boton")
+let boton = document.querySelector("button")
+boton.addEventListener("click", () => {alert("click en el boton")})
+$("button").click(()=>{
     console.log("Hola, estoy utilizando jQuery")
 })
